@@ -1,0 +1,62 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-image: url(CityHall.jpg);
+	background-size: cover;
+	background-position: center;
+	color: Black;
+	font-size: 12px;
+	font-family: "Times New Roman", sans-serif;
+}
+
+.highlight
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.highlight li
+{
+	display: inline-block;
+}
+
+.highlight li a
+{
+	 color: white;
+	 text-decoration: none;
+	 padding: 5px 20px;
+	 font-family: "Times New Roman", sans-serif;
+	 font-size: 12px;
+}
+
+.highlight li.active a
+{
+	border: 2px solid red;
+}
+
+.highlight li a:hover
+{
+	border: 1px solid #FFFFFF;
+}
+
+
+.row
+{
+
+	max.height: 1200px;
+	margin: auto;
+}
+
+header
+{
+	background: black; 
+	color: White;
+	font-size: 20px;
+	font-family: "Times New Roman", sans-serif;
+}
