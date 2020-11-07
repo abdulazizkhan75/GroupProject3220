@@ -1,0 +1,62 @@
+Police Stations
+Data Custodian:
+Windsor Police Services
+Data Currency Comments:
+The files were posted July, 2018 and will be updated as required.
+Dataset Description:
+These point files contain the Police Station, Address and X&Y Coordinates of each of the City’s Police Headquarters and Stations.
+Data Accuracy Comments:
+The coordinates are for the approximate location of the Headquarters and stations.
+Attributes:
+The attributes include the Station, Address and Northing and Easting or Latitude/Longitude depending on file format.
+Coordinate System:
+SHP formatted data are projected in UTM, NAD83, Zone 17 Metric and LL84. CSV formatted data is projected in LL84. DWG file is projected in UTM, NAD83, Zone 17 Metric. KMZ files have automatic transformation when applied.
+Relevant Downloads:
+ Police.kmz (07/12/2018)
+ Police Stations.dwg (07/12/2018)
+ Police_UTM83.zip (07/12/2018)
+ Police_LL84.zip (07/12/2018)
+ Police.csv (07/12/2018)
+END
+
+
+Hospitals
+Data Custodian:
+Engineering – Geomatics
+Data Currency Comments:
+The files were posted September 6th, 2018 and will be updated as required.
+Dataset Description:
+These point files contain the name, address and X&Y Coordinates of each of the City’s hospitals.
+Data Accuracy Comments:
+The coordinates are for the approximate location of the hospital.
+Attributes:
+The attributes include the Hospital name, address, and Northing and Easting or Latitude/Longitude depending on file format.
+Coordinate System:
+SHP formatted data are projected in UTM, NAD83, Zone 17 Metric and LL84. CSV formatted data is projected in LL84. DWG file is projected in UTM, NAD83, Zone 17 Metric. KMZ files have automatic transformation when applied.
+Relevant Downloads:
+ Hospitals_LL84.zip (09/06/2018)
+ Hospitals.dwg (09/06/2018)
+ Hospitals_UTM83.zip (09/06/2018)
+ Hospitals.kmz (09/06/2018)
+ Hospitals.csv (09/06/2018)
+END
+
+Fire Stations
+Data Custodian:
+Windsor Fire & Rescue
+Data Currency Comments:
+The files were posted in December, 2017 and will be updated as required.
+Dataset Description:
+These point files contain the name, address and X&Y Coordinates of each of the City’s fire halls.
+Data Accuracy Comments:
+The coordinates are for the approximate location of the fire hall.
+Attributes:
+The attributes include the name of the Fire Hall, address, and Northing and Easting or Latitude/Longitude depending on file format.
+Coordinate System:
+SHP formatted data are projected in UTM, NAD83, Zone 17 Metric and LL84. CSV formatted data is projected in LL84. DWG file is projected in UTM, NAD83, Zone 17 Metric. KMZ files have automatic transformation when applied.
+Relevant Downloads:
+ Fire_Stations_UTM83.zip (12/08/2017)
+ Fire_Stations_LL84.zip (12/08/2017)
+ Fire_Stations.kmz (12/08/2017)
+ Fire_Stations.csv (12/08/2017)
+ Fire_Stations.dwg (12/08/2017)

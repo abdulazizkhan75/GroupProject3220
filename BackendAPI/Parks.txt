@@ -1,0 +1,63 @@
+Parks
+Data Custodian:
+Parks & Facilities
+Data Currency Comments:
+The files were posted Sept, 2020 and will be updated as required.
+Dataset Description:
+These files represent polygon outlines of properties maintained as parks. For a listing of park names and addresses, please see the Park Centroid.csv that is found in the "Parks as Points" dataset in the open data catalogue.
+Data Accuracy Comments:
+Parks are generated from Land Parcel boundaries and information provided by Parks & Facilities.
+Attributes:
+The park name and address are included as attributes in the file.
+Coordinate System:
+SHP formatted data are projected in UTM, NAD83, Zone 17 Metric and LL84. DWG file is projected in UTM, NAD83, Zone 17 Metric. KMZ files have automatic transformation when applied.
+Relevant Downloads:
+ Parks_LL84.zip (09/10/2020)
+ Parks.kmz (09/10/2020)
+ Parks_UTM83.zip (09/10/2020)
+ Parks.dwg (09/10/2020)
+END
+Parks Maintenance Service Requests
+Data Custodian:
+311
+Data Currency Comments:
+The file ending with "_YTD.csv" will be updated frequently, often multiple times per week. The file ending with a range will usually be posted early in the following year.
+Dataset Description:
+Reports of service for general maintenance required within a park. The dataset contains information on customer initiated service requests entered into the City of Windsor 311 system from various channels (phone, email, online self-serve, text). 311 manages the service request data for City of Windsor departments and divisions represented in this dataset. As such, 311 consulted the participating divisions and subject matter experts for this release. This data set is extracted electronically from the 311 customer request management system.
+Data Accuracy Comments:
+This data represents only a portion of overall City of Windsor services and the number and location of service requests will not be representative of the full range of services provided by the City of Windsor. This data represents requests for service entered into the 311 system initiated from the customer's perspective based on description provided by the customer at the time of contact with 311. However, during the request fulfillment process, it could be determined that the customer's request may not be valid or may need to be adjusted. For example a request for a tree trim is made, but upon investigation by the Forestry department it is determined that the tree is on private property and therefore the responsibility of the property owner to maintain. Review of data should take into consideration the urban attributes and context of the issue being reported, such as vegetation density, population density, age of infrastructure asset, zoning and applicable by-laws, and it should also be noted that multiple reports may be received for the same issue, which can influence results.
+Attributes:
+-Service Request Description: A text field of the request for service description created within the 311 system. The 311 service creates requests on behalf of the customer and forwards it to the appropriate department or division for action.
+-Department: A text field indicating the department or division responsible to follow up on the request for service.
+-Method Received: A text field indicating the channel by which the inquiry was received: phone, email, online or text.
+-Created Date: Numeric field indicating the date and time the service request was entered into the system.
+-Block: Numeric field representing the block location of the reported service request.
+-Street: Text field providing the street name location of the reported service request.
+-Ward: Alpha numeric field indicating the political ward associated with the reported service request.
+-Sub-Type: Text field providing specific maintenance issue.
+Relevant Downloads:
+ ParksMaintenance_YTD.csv (02/11/2019)
+END
+
+
+Parks Lighting Service Requests
+Data Custodian:
+311
+Data Currency Comments:
+The file ending with "_YTD.csv" will be updated frequently, often multiple times per week. The file ending with a range will usually be posted early in the following year.
+Dataset Description:
+Reports of service required for lighting issues within a park. The dataset contains information on customer initiated service requests entered into the City of Windsor 311 system from various channels (phone, email, online self-serve, text). 311 manages the service request data for City of Windsor departments and divisions represented in this dataset. As such, 311 consulted the participating divisions and subject matter experts for this release. This data set is extracted electronically from the 311 customer request management system.
+Data Accuracy Comments:
+This data represents only a portion of overall City of Windsor services and the number and location of service requests will not be representative of the full range of services provided by the City of Windsor. This data represents requests for service entered into the 311 system initiated from the customer's perspective based on description provided by the customer at the time of contact with 311. However, during the request fulfillment process, it could be determined that the customer's request may not be valid or may need to be adjusted. For example a request for a tree trim is made, but upon investigation by the Forestry department it is determined that the tree is on private property and therefore the responsibility of the property owner to maintain. Review of data should take into consideration the urban attributes and context of the issue being reported, such as vegetation density, population density, age of infrastructure asset, zoning and applicable by-laws, and it should also be noted that multiple reports may be received for the same issue, which can influence results.
+Attributes:
+-Service Request Description: A text field of the request for service description created within the 311 system. The 311 service creates requests on behalf of the customer and forwards it to the appropriate department or division for action.
+-Department: A text field indicating the department or division responsible to follow up on the request for service.
+-Method Received: A text field indicating the channel by which the inquiry was received: phone, email, online or text.
+-Created Date: Numeric field indicating the date and time the service request was entered into the system.
+-Block: Numeric field representing the block location of the reported service request.
+-Street: Text field providing the street name location of the reported service request.
+-Ward: Alpha numeric field indicating the political ward associated with the reported service request.
+
+Relevant Downloads:
+ ParksLighting_YTD.csv (02/11/2019)
+END

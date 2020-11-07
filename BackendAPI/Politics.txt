@@ -1,0 +1,46 @@
+Voting Locations
+Data Custodian:
+Engineering - Geomatics along with Council Services
+Data Currency Comments:
+These files reflect the location of the voting stations for the 2018 Election.
+Dataset Description:
+The point files are the voting locations where the 2018 Election take place. Each location is selected on their availability and their spatial location in their Ward/Poll.
+Data Accuracy Comments:
+The coordinates are for the approximate location of the Voting location.
+Attributes:
+The attributes include the Name, Address, Ward/Poll, Comments and Northing and Easting or Latitude/Longitude depending on file format.
+Coordinate System:
+SHP formatted data are projected in UTM, NAD83, Zone 17 Metric and LL84. CSV formatted data is projected in LL84. DWG file is projected in UTM, NAD83, Zone 17 Metric. KMZ files have automatic transformation when applied.
+Relevant Downloads:
+ 2018_Voting_Polling_Stations.dwg (08/21/2018)
+ Voting_Locations_LL84.zip (08/21/2018)
+ Voting_Locations_LL84.csv (08/21/2018)
+ Voting Locations.kmz (08/21/2018)
+ Voting_Locations_UTM83.zip (08/21/2018)
+END
+Voting Subdivisions
+Data Custodian:
+Engineering - Geomatics along with Council Services
+Data Currency Comments:
+These files reflect the boundaries for the voting subdivisions for the 2018 Election and will stay this way for the next four years.
+Dataset Description:
+The polygon files are the Ward/Subdivision (or Poll) for the 2018 Election. Each boundary has been created to take into account the eligible voters that reside within the boundaries.
+Data Accuracy Comments:
+This information is based on the use of the Land Parcels and eligible voters that reside within the parcels.
+Attributes:
+The attributes include the Ward and Ward/Poll as part of the polygon boundaries.
+Coordinate System:
+SHP formatted data are projected in UTM, NAD83, Zone 17 Metric and LL84. DWG file is projected in UTM, NAD83, Zone 17 Metric. KMZ files have automatic transformation when applied.
+Relevant Downloads:
+ 2018_Voting_Subdivisions.dwg (08/21/2018)
+ Voting_Subdivisions_UTM83.zip (08/21/2018)
+ Voting Subdivisions.kmz (08/21/2018)
+ Voting_Subdivisions_LL84.zip (08/21/2018)
+END
+Election Results - 2020
+Data Custodian:
+Dataset Description:
+Results.csv contain the total votes for each candidate for the City of Windsor 2020 Ward 7 By-Election. DetailedResults.csv contains Poll-by-poll totals for the City of Windsor 2020 Ward 7 By-Election.
+Relevant Downloads:
+ DetailedResults-2020.csv (10/14/2020)
+ Results-2020.csv (10/14/2020)
