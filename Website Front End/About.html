@@ -14,6 +14,16 @@ the city of Windsor -->
 	<ul class = "highlight">
 		<li><a href= "Website.html"> HOME </a></li>
 		<li><a href= "About.html"> LIBRARY </a></li>
+		
+		<!-- list the categories of the library -->
+		<select id="filter-dropdown" class="form-control">
+            <option value="all">All</option>
+            <option value="csv">CSV</option>
+            <option value="dwg">DWG</option>
+            <option value="kmz">KMZ</option>
+            <option value="xlsx">XLSX</option>
+        </select>
+		
 		<li>Login: </li>
 		<input type="text" placeholder="Username">
 		<input type="text" placeholder="Password">
@@ -21,7 +31,7 @@ the city of Windsor -->
 	</div>
 	
 	<div class = "header">
-			<h2>About</h2>
+			<h2>Different Libraries</h2>
 			<h2>Access Portal</h2>
 
 	</div>
@@ -33,13 +43,17 @@ the city of Windsor -->
 	<br>
 	<br>
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	
 	
 	<div style="text-align: center">
-	<p>This part will contain the libraries</p>
+	
+	<!-- This would link to the desired files for now
+		 No links available yet -->
+	<a href="">Link to other files</a>
+	<!-- Doesn't upload files yet. Up prompts the user to get a file. -->
+	<input type="file" webkitdirectory mozdirectory />
+
+	<p>This part is where files will be uploaded</p>
 	
 </body>
 </html>
