@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.io.FileInputStream;
+import java.io.*;
 /*FileRead class is used get the file name from where the data lies, and exactly where in the file to read from.
  Which is then sent to to the API class to be easily stored into an object */
 
@@ -30,7 +31,7 @@ public class FileRead {
         String currentType = "";
         while (fr.hasNextLine()) {
             String i = fr.nextLine();
-            
+            //System.out.println(i);
             if (i.equals("Data Custodian:")) {
                 currentType = i;
                 userAPI.setDataCustodian(fr.nextLine());
