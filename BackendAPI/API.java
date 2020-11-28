@@ -1,7 +1,4 @@
-
-
-
-
+import java.util.ArrayList;
 
 public class API {
     private String Data_Custodian;
@@ -10,8 +7,8 @@ public class API {
     private String Data_Accuracy_Comments;
     private String Attributes;
     private String Coordinate_System;
-    private String Relevant_Downloads;
-
+    private ArrayList<String> Relevant_Downloads = new ArrayList<String>();
+    private int numOfDownloads = 0;
     public API() {
         Data_Custodian = "";
         Data_Currency_Comments = "";
@@ -19,11 +16,15 @@ public class API {
         Data_Accuracy_Comments = "";
         Attributes = "";
         Coordinate_System = "";
-        Relevant_Downloads = "";
+    }
+
+    public int getNumOfDownloads() {
+        return numOfDownloads;
     }
 
     public void setDataCustodian(String data) {
         Data_Custodian = Data_Custodian + "\n" + data;
+        
     }
     
     public void setDataCurrencyComments(String data) {
@@ -47,7 +48,9 @@ public class API {
     }
 
     public void setRelevantDownload(String data) {
-        Relevant_Downloads = Relevant_Downloads + "\n" +  data;
+        Relevant_Downloads.add((Relevant_Downloads.size() + 1) + "." +  data);
+        //Relevant_Downloads = Relevant_Downloads + "\n(" + (numOfDownloads + 1) + "). " +  data;
+        //numOfDownloads = numOfDownloads + 1;
     }
 
     public String getDataCustodian() {
@@ -98,16 +101,25 @@ public class API {
         }
     } 
 
-    public String getRelevantDownload() {
-        if (Relevant_Downloads.equals("")) {
-            return "N/A";
-        } else {
-            return Relevant_Downloads;
+    public ArrayList<String> getRelevantDownload() {
+        if (Relevant_Downloads.isEmpty()) {
+            Relevant_Downloads.add("N/A");
+        } 
+        
+        return Relevant_Downloads;
+        
+    }
+
+    public String printAList() {
+        String listTemp = "\n";
+        for (int i = 0; i < Relevant_Downloads.size(); i++) {
+            listTemp = listTemp + "" + Relevant_Downloads.get(i) + "\n";
         }
+        return listTemp;
     }
 
     public String toString() {
-        return "Data Custodian: " + getDataCustodian() + "\nData Currency Comments: " + getDataCurrencyComments() + "\nDataset Description: " + getDatasetDescription() + "\nData Accuracy Comments: " + getDataAccuracyComments() + "\nAttributes: " + getAttributes() + "\nCoordinate System: " + getCoordinateSystem() + "\nRelevant Downloads: " + getRelevantDownload() + "\n";
+        return "Data Custodian: " + getDataCustodian() + "\n\nData Currency Comments: " + getDataCurrencyComments() + "\n\nDataset Description: " + getDatasetDescription() + "\n\nData Accuracy Comments: " + getDataAccuracyComments() + "\n\nAttributes: " + getAttributes() + "\n\nCoordinate System: " + getCoordinateSystem() + "\n\nRelevant Downloads: " + printAList() + "\n\n";
     }
 
 }
