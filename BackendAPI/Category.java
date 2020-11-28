@@ -4,8 +4,8 @@ import java.util.*;
 
 //Category class to determine the  data sets to be shown to the user, this data is stored in an arraylist for easy insert and filtering of data 
 public class Category {
-        private List<String> selection; //stores the list of available apis to be shown to the user
-
+        private ArrayList<String> selection; //stores the list of available apis to be shown to the user
+     //   private ArrayList<String> firstFilter = new ArrayList<String>();
       public Category() { //defualt constructor
             selection = new ArrayList<String>();
             selection.add("Default String Name");
@@ -13,6 +13,8 @@ public class Category {
       //public constructor to initialize the Arraylist for the available data sets
       public Category(String Filter) {
             selection = new ArrayList<String>();
+
+
             if (Filter.equalsIgnoreCase("Parks")) {
                 selection.add("Parks"); 
                 selection.add("Parks Maintenance Service Requests"); 
@@ -44,11 +46,17 @@ public class Category {
       }
       //displays the available data sets of the specific Category object
       public void DisplaySelection() {
-          System.out.println("Which data set would you like to see?");
+          System.out.println("Which data set would you like to see? (0 to exit)");
           for (int i = 0; i < selection.size(); i++) {
               System.out.println("(" + (i+1) + "). " + selection.get(i));
           }
           
+      }
+
+
+      public ArrayList<String> returnCategory() {
+            return selection;
+
       }
 
        
